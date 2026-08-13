@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>m3gan Songwriter</title>
+  <link>https://m3gansongwriter.com/</link>
+  <description>Behind the song stories, songwriting tips, and clean curated music playlists.</description>
+  <language>en-us</language>
+  <atom:link href="https://m3gansongwriter.com" rel="self" type="application/rss+xml" />
+
+  <!-- ITEM 1: Behind the Songs -->
+  <item>
+    <title>Behind the Songs: Tribute Album and Audio Metadata Blueprints</title>
+    <link>https://m3gansongwriter.com/bts.html</link>
+    <guid>https://m3gansongwriter.com/bts.html</guid>
+    <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+    <description>Inside look at the Remembering Dolores tribute album updates and crucial audio metadata strategy for music streaming royalties.</description>
+  </item>
+
+  <!-- ITEM 2: Your Playlists Page -->
+  <item>
+    <title>Building Playlists That Streaming Platforms Won't Delete</title>
+    <link>https://m3gansongwriter.com/playlists.html</link>
+    <guid>https://m3gansongwriter.com/playlists.html</guid>
+    <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+    <description>Discover clean curation methods to protect your music network and build a safe playlist strategy.</description>
+  </item>
+
+  <!-- ITEM 3: Your Tips Page -->
+  <item>
+    <title>Songwriting Tips and Methods</title>
+    <link>https://m3gansongwriter.com/tips.html</link>
+    <guid>https://m3gansongwriter.com/tips.html</guid>
+    <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+    <description>Open source songwriting advice, tools, and unique methods for creators of all levels.</description>
+  </item>
+
+</channel>
+</rss>
