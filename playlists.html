@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+    <link rel="alternate" type="application/rss+xml" title="m3gan Songwriter Feed" href="https://m3gansongwriter.com" />
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23000000'/><text x='50' y='65' font-family='sans-serif' font-size='55' font-weight='900' fill='%23ffffff' text-anchor='middle'>m</text></svg>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playlists | m3gan</title>
-    <meta name="description" content="Learn the branded playlist framework m3gan uses to build traction, optimize cover art, and drive immediate streaming momentum on Spotify.">
+    <meta name="description" content="My official playlist framework. Learn how I structure titles, format unique cover art, and curate safe playlists without duplication or copyright risks.">
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 600px; margin: 20px auto; padding: 0 15px; line-height: 1.6; color: #111; background: #fff; }
         header { border-bottom: 1px solid #eee; padding-bottom: 15px; margin-bottom: 25px; }
         .brand { font-size: 2.2rem; font-weight: 900; margin: 0; letter-spacing: -0.5px; }
         .tagline { margin: 5px 0 0 0; font-style: italic; color: #ff3366; font-weight: bold; font-size: 0.95rem; }
-        nav { margin-top: 15px; }
-        nav p { margin: 8px 0; }
+        nav { margin-top: 15px; display: flex; flex-wrap: wrap; gap: 12px; }
         button { 
             font-family: inherit;
             font-size: 0.95rem; 
@@ -24,7 +24,7 @@
             padding: 8px 14px; 
             border-radius: 4px; 
             cursor: pointer;
-            width: auto;
+            width: fit-content;
         }
         button:hover { 
             border-color: #0066cc;
@@ -32,7 +32,9 @@
         }
         a { color: #0066cc; text-decoration: none; }
         a:hover { text-decoration: underline; }
-        h2 { font-size: 1.4rem; margin-top: 30px; }
+        h1 { font-size: 1.8rem; margin-top: 10px; margin-bottom: 5px; }
+        h2 { font-size: 1.4rem; margin-top: 35px; margin-bottom: 10px; }
+        h3 { font-size: 1.1rem; color: #555; margin-top: 20px; margin-bottom: 10px; font-weight: 600; }
         ul, ol { padding-left: 20px; }
         li { margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px dashed #eee; }
     </style>
@@ -43,21 +45,22 @@
         <p class="brand">m3gan</p>
         <p class="tagline">The Original m3gan — Est. 2022</p>
         <nav>
-            <p><button style="background: #666666; color: #ffffff; border: 1px solid #666666; font-weight: bold; padding: 8px 14px; border-radius: 4px;" onclick="window.location.href='index.html'">Home</button></p>
-            <p><button style="background: #666666; color: #ffffff; border: 1px solid #666666; font-weight: bold; padding: 8px 14px; border-radius: 4px;" onclick="window.location.href='bts.html'">Behind the Songs</button></p>
-            <p><button style="background: #666666; color: #ffffff; border: 1px solid #666666; font-weight: bold; padding: 8px 14px; border-radius: 4px;" onclick="window.location.href='tips.html'">Songwriting Tips</button></p>
-            <p><button style="background: #333333; color: #ffffff; border: 1px solid #333333; font-weight: bold; padding: 8px 14px; border-radius: 4px;" onclick="window.location.href='playlists.html'">Playlists</button></p>
+            <button style="background: #666666; color: #ffffff; border: 1px solid #666666;" onclick="window.location.href='index.html'">Home</button>
+            <button style="background: #666666; color: #ffffff; border: 1px solid #666666;" onclick="window.location.href='bts.html'">Behind the Songs</button>
+            <button style="background: #666666; color: #ffffff; border: 1px solid #666666;" onclick="window.location.href='tips.html'">Songwriting Tips</button>
+            <button style="background: #333333; color: #ffffff; border: 1px solid #333333;" onclick="window.location.href='playlists.html'">Playlists</button>
         </nav>
-
     </header>
 
     <main>
-        <h2>The Playlist Framework: Developing Instant Traction</h2>
+        <h1>Playlists: Curated Tracks & Frameworks</h1>
+        
+        <h2>The Playlist Framework: Developing Your Own Branded Playlists</h2>
         <p>All artists should know the true value of their own branded playlists, and why they're crucial for an artist's development. Neglecting playlists could put new releases in an almost impossible position. Forget about pre-save campaigns, email building, and all the things you read about online.</p>
 
-        <p>A music blog is the perfect foundation and starting point for your songs or tracks. The reasons are: you learn about formatting and SEO, such as titles and meta descriptions, which also happens to be all playlists' main structural format.</p>
+        <p>A music blog is the perfect foundation and starting point for your songs or tracks. The reasons are: you learn about formatting and SEO, such as titles and meta descriptions, which also happens to be a playlists' main structural format.</p>
 
-        <h3>The Basic Principles</h3>
+        <h2>The Basic Principles</h2>
         <p>If you create your branded playlist with only your own songs, you will fail. If you're a content creator or music lover that has an interest or would like a popular or viral playlist, follow these formatting steps to give your playlist the best possible chance of success:</p>
 
         <ol>
@@ -81,7 +84,7 @@
             </li>
         </ol>
 
-        <h3>Before You Publish</h3>
+        <h2>Before You Publish</h2>
         <p>Before you publish your playlist on any streaming platform consider these alternatives:</p>
 
         <ol>
@@ -90,29 +93,29 @@
             </li>
             <li>
                 <p><b>How to improve your song selection</b></p>
-<p>Pick a new release from a top artist that matches the mood of the playlist. The track's popularity rating will hurt the overall playlist rating at first, but as that track's rating improves so does your playlist rating.</p>
+                <p>Pick a new release from a top artist that matches the mood of the playlist. The track's popularity rating will hurt the overall playlist rating at first, but as that track's rating improves so does your playlist rating.</p>
             </li>
         </ol>
 
         <p>I have purposely left out the branded names of streaming platforms and search engines. If you are unsure which streaming platform to use? Go with the one that starts with an "S." If you choose more than one platform, then the duplication and copyright comes into play.</p>
 
-        <h3>Updating and Promoting Playlists</h3>
+        <h2>Updating and Promoting Playlists</h2>
         <p>If you already have playlists you would like to update, do not use any playlist transfer service or app. What happens is the songs get swapped out for lower popularity album versions, which massively hurts your overall playlist rating, and will take you ages to fix.</p>
 
-<h3>Is this just for new playlists?</h3>
-
-<p>Absolutely not, established and even viral playlists can benefit from all or some of the above. All playlists are at risk of being taken down. If you follow the above mention principles, you will add a massive layer of protection to your playlist or playlists.</p>
+        <h3>Is this just for new playlists?</h3>
+        <p>Absolutely not, established and even viral playlists can benefit from all or some of the above. All playlists are at risk of being taken down. If you follow the above mention principles, you will add a massive layer of protection to your playlist or playlists.</p>
 
         <p>Unless you have a massive following on social media, do not promote your playlist, or write about it on your music blog. The reason is quite simply duplication and copyright. These could negatively affect not only your playlist but your blog.</p>
 
         <p>In my next post I will write about one of my playlists, but in a way that doesn't compromise my blog or playlist.</p>
 
-        <p>If you would like to see a live example of how my deep-linking works, so my track automatically plays when someone clicks on my playlist link — <a href="https://open.spotify.com/track/0u82NuxxVpSLvSByGQWdI3?context=spotify/playlist/56zxnDWrUhQzIazeKLwZHh" target="_blank" rel="noopener">Check it out on Spotify</a>.</p>
+        <p>If you would like to see an example of how my deep-linking works, so my track automatically plays when someone clicks on my playlist link — <a href="https://open.spotify.com/track/0u82NuxxVpSLvSByGQWdI3?context=spotify/playlist/56zxnDWrUhQzIazeKLwZHh" target="_blank" rel="noopener">Listen on Spotify</a>.</p>
     </main>
-        <hr style="border: 0; border-top: 1px solid #eee; margin-top: 40px;">
-        <footer style="font-size: 0.85rem; color: #666; text-align: center; padding: 20px 0;">
-            &copy; 2022 - 2026 m3gan. All rights reserved.
-        </footer>
 
+    <hr style="border: 0; border-top: 1px solid #eee; margin-top: 40px;">
+    
+    <footer style="font-size: 0.85rem; color: #666; text-align: center; padding: 20px 0;">
+        &copy; 2022 - 2026 m3gan. All rights reserved.
+    </footer>
 </body>
 </html>
