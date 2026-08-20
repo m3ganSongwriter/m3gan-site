@@ -2,19 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
     <link rel="alternate" type="application/rss+xml" title="m3gan Songwriter Feed" href="https://m3gansongwriter.com" />
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23000000'/><text x='50' y='65' font-family='sans-serif' font-size='55' font-weight='900' fill='%23ffffff' text-anchor='middle'>m</text></svg>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>m3gan | Official Site</title>
     <meta name="description" content="The official platform of m3gan, the original pop singer-songwriter. Explore independent songwriting tips, raw creative workflows, and real studio logs.">
+    
+    <!-- JSON-LD Schema placed properly inside the <head> -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicGroup",
+      "name": "m3gan",
+      "url": "https://m3gansongwriter.com",
+      "genre": ["Pop", "Independent Pop"],
+      "description": "The official platform of m3gan, the original pop singer-songwriter featuring independent songwriting tips, raw creative workflows, and real studio logs.",
+      "sameAs": [
+        "https://open.spotify.com/artist/3cGI2IfwIMXdCPbOp2AfTl",
+        "https://music.apple.com/gb/artist/m3gan/1605405538",
+        "https://www.instagram.com/m3gan.music"
+      ]
+    }
+    </script>
+
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 600px; margin: 20px auto; padding: 0 15px; line-height: 1.6; color: #111; background: #fff; }
         header { border-bottom: 1px solid #eee; padding-bottom: 15px; margin-bottom: 25px; }
         .brand { font-size: 2.2rem; font-weight: 900; margin: 0; letter-spacing: -0.5px; }
         .tagline { margin: 5px 0 0 0; font-style: italic; color: #ff3366; font-weight: bold; font-size: 0.95rem; }
-        nav { margin-top: 15px; }
-        nav p { margin: 8px 0; }
+        nav { 
+    margin-top: 15px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 12px; 
+}
         button { 
             font-family: inherit;
             font-size: 0.95rem; 
@@ -25,7 +47,7 @@
             padding: 8px 14px; 
             border-radius: 4px; 
             cursor: pointer;
-            width: auto;
+            width: fit-content;
         }
         button:hover { 
             border-color: #0066cc;
@@ -33,7 +55,8 @@
         }
         a { color: #0066cc; text-decoration: none; }
         a:hover { text-decoration: underline; }
-        h2 { font-size: 1.4rem; margin-top: 30px; }
+        h2 { font-size: 1.6rem; margin-top: 35px; margin-bottom: 5px; }
+        h3 { font-size: 1.1rem; color: #555; margin-top: 0; margin-bottom: 15px; font-weight: 600; }
     </style>
 </head>
 <body>
@@ -42,51 +65,52 @@
         <p class="brand">m3gan</p>
         <p class="tagline">The Original m3gan — Est. 2022</p>
         <nav>
-            <p><button style="background: #333333; color: #ffffff; border: 1px solid #333333; font-weight: bold; padding: 8px 14px; border-radius: 4px;" onclick="window.location.href='index.html'">Home</button></p>
-            <p><button style="background: #666666; color: #ffffff; border: 1px solid #666666; font-weight: bold; padding: 8px 14px; border-radius: 4px;" onclick="window.location.href='bts.html'">Behind the Songs</button></p>
-            <p><button style="background: #666666; color: #ffffff; border: 1px solid #666666; font-weight: bold; padding: 8px 14px; border-radius: 4px;" onclick="window.location.href='tips.html'">Songwriting Tips</button></p>
-            <p><button style="background: #666666; color: #ffffff; border: 1px solid #666666; font-weight: bold; padding: 8px 14px; border-radius: 4px;" onclick="window.location.href='playlists.html'">Playlists</button></p>
-        </nav>
+    <button style="background: #333333; color: #ffffff; border: 1px solid #333333;" onclick="window.location.href='index.html'">Home</button>
+    <button style="background: #666666; color: #ffffff; border: 1px solid #666666;" onclick="window.location.href='bts.html'">Behind the Songs</button>
+    <button style="background: #666666; color: #ffffff; border: 1px solid #666666;" onclick="window.location.href='tips.html'">Songwriting Tips</button>
+    <button style="background: #666666; color: #ffffff; border: 1px solid #666666;" onclick="window.location.href='playlists.html'">Playlists</button>
+</nav>
+    </header>
 
-  </header>
-<main>
+    <main>
         <section id="welcome-hub">
-  <h1>m3gan | Pop Singer-Songwriter</h1>
-  <p>I launched my <strong>pop music</strong> career back in 2022. This website serves as the official, unfiltered archive for my <strong>independent songwriting</strong>, studio logs, and track releases. As the original m3gan—established months before the doll movie—this platform is where I document my real <strong>creative process</strong> and take back control of my brand.</p>
-</section>
-<div align="center">
-    <img src="https://i.postimg.cc/RZZ3N7Cz/m3gan-official-spotify-artist-profile-cover-image.webp" alt="Pop singer-songwriter m3gan official Spotify artist profile picture and This Is m3gan playlist cover image featuring a close-up portrait in a black hoodie and round sunglasses." border="0" width="350">
-</div>
- <p>Instead of relying on third-party social media algorithms, I document my entire journey as an <strong>independent artist</strong> right here under one roof. You can explore the core sections of my platform below:</p>
+            <h1>m3gan | Pop Singer-Songwriter</h1>
+            <p>I launched my <strong>pop music</strong> career back in 2022. This website serves as the official, unfiltered archive for my <strong>independent songwriting</strong>, studio logs, and track releases. As the original m3gan—established months before the doll movie—this platform is where I document my real <strong>creative process</strong> and take back control of my brand.</p>
+        </section>
 
-<h3><a href="bts.html">Behind the Songs</a></h3>
+        <div align="center" style="margin: 20px 0;">
+            <img src="https://i.postimg.cc/RZZ3N7Cz/m3gan-official-spotify-artist-profile-cover-image.webp" alt="Pop singer-songwriter m3gan official Spotify artist profile picture and This Is m3gan playlist cover image featuring a close-up portrait in a black hoodie and round sunglasses." border="0" width="350">
+        </div>
 
-<h4>Timelines, Studio Logs, and Breakdown Stories</h4>
+        <p>Instead of relying on third-party social media algorithms, I document my entire journey as an <strong>independent artist</strong> right here under one roof. You can explore the core sections of my platform below:</p>
 
-<p>This section documents the actual studio history and tracking timelines behind my song releases.</p>
+        <!-- Section 1 -->
+        <h2><a href="bts.html">Behind the Songs</a></h2>
+        <h3>Timelines, Studio Logs, and Breakdown Stories</h3>
+        
+        <p>This section documents the actual studio history and tracking timelines behind my song releases.</p>
+        <p>I have to start with my 2022 debut <a href="https://distrokid.com/hyperfollow/m3gan/dreams-3" target="_blank" rel="noopener">Dreams cover</a> song. This track is critical not because it was my first ever release, but because its launch on <b>February 28, 2022</b>, officially timestamps my stage name—months before the doll movie had its premiere on <b>December 7, 2022</b>, and used my name without my consent.</p>
+        <p>I am taking back my brand. I will be addressing the fake AI artists who put "<b>(feat. m3gan)</b>" in their songs. I have never given anyone consent to use my name, and this is where I set the record straight.</p>
 
-<p>I have to start with my 2022 debut <a href="https://distrokid.com/hyperfollow/m3gan/dreams-3" target="_blank" rel="noopener">Dreams cover</a> song. This track is critical not because it was my first ever release, but because its launch on <b>February 28, 2022</b>, officially timestamps my stage name—months before the doll movie had its premiere on <b>December 7, 2022</b>, and used my name without my consent.</p>
+        <!-- Section 2 -->
+        <h2><a href="tips.html">Songwriting Tips</a></h2>
+        <h3>Notes, Workflows, and Hooks</h3>
+        
+        <p>This section serves as a direct notebook, containing the steps and lyrical structures I use when songwriting.</p>
+        <p>When <b>writing songs</b> I concentrate on the storytelling side first. Then I start to remove, and format the lyrics to form the song structure. I map out the intro, verses, pre-chorus, chorus, drops, hooks, bridges, interludes and finally the outro.</p>
+        <p>Everything here is stripped of generic, textbook advice. These are my real workflow logs detailing how I arrange my vocal layers, and introduce the musical aspect.</p>
 
-<p>I am taking back my brand. I will be addressing the fake AI artists who put "<b>(feat. m3gan)</b>" in their songs. I have never given anyone consent to use my name, and this is where I set the record straight.</p>
+        <!-- Section 3 -->
+        <h2><a href="playlists.html">Playlists</a></h2>
+        <h3>Curated Pop Playlists & Mood Combinations</h3>
+        
+        <p>Playlists are crucial for independent artists because they give new releases instant traction. Instead of waiting for slow organic reach, getting a new track placed on the right playlist pushes it directly to active listeners the moment it drops, <b>building immediate</b> streaming momentum.</p>
+    </main>
 
-<h3><a href="tips.html">Songwriting Tips</a></h3>
-
-<h4>Notes, Workflows, and Hooks</h4>
-
-<p>This section serves as a direct notebook, containing the steps and lyrical structures I use when songwriting.</p>
-
-<p>When <b>writing songs</b> I concentrate on the storytelling side first. Then I start to remove, and format the lyrics to form the song structure. I map out the intro, verses, pre-chorus, chorus, drops, hooks, bridges, interludes and finally the outro.</p>
-
-<p>Everything here is stripped of generic, textbook advice. These are my real workflow logs detailing how I arrange my vocal layers, and introduce the musical aspect.</p>
-
-<h3><a href="playlists.html">Playlists</a></h3>
-                
-<h4>Curated playlists and mood combinations that feature emotional influences</h4>
-                
-<p>Playlists are crucial for artists because they give new releases instant traction. Instead of waiting for slow organic reach, getting a new track placed on the right playlist pushes it directly to active listeners the moment it drops, <b>building immediate</b> streaming momentum.</p>
-</main>
-<hr style="border: 0; border-top: 1px solid #eee; margin-top: 40px;">
-<footer style="font-size: 0.85rem; color: #666; text-align: center; padding: 20px 0;"> &copy; 2022 - 2026 m3gan. All rights reserved.
-        </footer>
+    <hr style="border: 0; border-top: 1px solid #eee; margin-top: 40px;">
+    
+    <footer style="font-size: 0.85rem; color: #666; text-align: center; padding: 20px 0;"> 
+        &copy; 2022 - 2026 m3gan. All rights reserved.
+    </footer>
 </body>
 </html>
