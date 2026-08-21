@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://sitemaps.org">
-    <url>
-        <loc>https://m3gansongwriter.com</loc>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://m3gansongwriter.combts.html</loc>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://m3gansongwriter.comtips.html</loc>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://m3gansongwriter.complaylists.html</loc>
-        <priority>0.8</priority>
-    </url>
+  <url>
+    <loc>https://m3gansongwriter.com</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://m3gansongwriter.com/bts.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://m3gansongwriter.com/tips.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://m3gansongwriter.com/playlists.html</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>
