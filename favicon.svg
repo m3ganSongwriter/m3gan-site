@@ -2,6 +2,6 @@
   <!-- Solid Black Background Box with Rounded Corners -->
   <rect width="100" height="100" rx="20" fill="#000000"/>
   
-  <!-- White "m" Character Balanced Precisely Using Standard System Fonts -->
-  <text x="50" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="55" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="central">m</text>
+  <!-- White "m" Character Balanced Manually For Maximum Cross-Platform Compatibility -->
+  <text x="50" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="55" font-weight="900" fill="#ffffff" text-anchor="middle">m</text>
 </svg>
