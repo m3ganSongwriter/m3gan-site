@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-label="m3gan Pop Singer-Songwriter Official Logo">
+<svg xmlns="http://w3.org" viewBox="0 0 100 100" aria-label="m3gan Pop Singer-Songwriter Official Logo">
   <!-- Solid Black Background Box with Rounded Corners -->
   <rect width="100" height="100" rx="20" fill="#000000"/>
   
   <!-- White "m" Character Balanced Precisely Using Standard System Fonts -->
-  <text x="50" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="55" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">m</text>
+  <text x="50" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="55" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="central">m</text>
 </svg>
