@@ -1,5 +1,2 @@
-User-agent: bingbot
-Disallow: /
-
 User-agent: *
 Allow: /
