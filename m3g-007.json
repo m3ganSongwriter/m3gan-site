@@ -1,0 +1,27 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Time To Say Goodbye",
+  "isrcCode": "QZTBD2615252",
+"mpn": "m3g-007",
+  "sameAs": "https://musicbrainz.org/recording/d2f8c5b1-e879-4a5d-a4c0-f795055fca1e",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "m3gan",
+    "sameAs": "https://musicbrainz.org/artist/1d5597d6-b94a-4627-8675-a700f02e1fe1"
+  },
+  "recordingOf": {
+    "@type": "MusicComposition",
+    "name": "Time To Say Goodbye",
+    "author": {
+      "@type": "Person",
+      "name": "Francesco Sartori, Lucio Quarantotto"
+    },
+    "lyrics": {
+      "@type": "CreativeWork",
+      "text": "When I am alone\nI dream of the horizon\nAnd words fail me\nFail me\n\nThere is no light in a room\nWhere there is no sun\nAnd there is no sun\nIf you're not here\n\nWith me\nWith me\n\nFrom every window\nFills my heart\nThe heart that you have won\n\nInto me you've poured the light\nThe light that you found\nBy the side or the road\n\nIt's time to say goodbye\ntime to say goodbye\n\nPlaces that I've never seen\nOr experienced with you\nNow I shall sail with you\nUp on ships across the seas\nThat exist no more\n\nIt's time to say goodbye\ntime to say goodbye\nIt's time to say goodbye\ntime to say goodbye\n\nWhen you're far away\nI dream of the horizon\nAnd words fail me\n\nAnd of course I know that\nYou're with me, with me\nYou're my moon\nYou are with me\nMy sun, you're here\nWith me, with me, with me\n\nIt's time to say goodbye\nTime to say goodbye\n\nPlaces that I've never seen\nOr experienced with you\nNow I shall sail with you\nUp on ships across the seas\nThat exist no more\n\nI'll revive them with you\nI'll go with you\n\nUp on ships across the seas\nThat exist no more\nI'll revive them with you\nI'll go with you\n\nYou and me"
+    }
+  }
+}
+</script>
