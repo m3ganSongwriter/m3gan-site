@@ -1,0 +1,24 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Dreams",
+  "isrcCode": "QZFZ22277474",
+  "mpn": "m3g-001",
+  "genre": "Pop",
+  "sameAs": "https://musicbrainz.org/recording/a6b4af6c-545b-484f-be43-7f9712601089",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "m3gan",
+    "sameAs": "https://musicbrainz.org/artist/1d5597d6-b94a-4627-8675-a700f02e1fe1"
+  },
+  "recordingOf": {
+    "@type": "MusicComposition",
+    "name": "Dreams",
+    "lyrics": {
+      "@type": "CreativeWork",
+      "text": "I never felt like this before\nBut now I'm feeling it even more\nBecause it came from you\nOh my life\nIt's changing every day\nIn every possible way\n\nOh my dreams\nIt's never quite as it seems\nNever quite as it seems\nI want more\nImpossible to ignore\nImpossible to ignore\nWill come true\nIt was a moment to do\nPossible not to do\n\nOh my life\nOh please\nAnd now I tell you openly\nYou have my heart so differently\nWhat I couldn't find\nBut totally amazing mind\nSo understanding and so kind\nYou're everything to me"
+    }
+  }
+}
+</script>
