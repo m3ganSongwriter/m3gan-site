@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": "Take On Me (Slowed)",
+  "isrcCode": "QZHNA2264715",
+  "mpn": "m3g-002",
+  "genre": [
+    "Pop",
+    "Singer-Songwriter"
+  ],
+  "sameAs": "https://musicbrainz.org/recording/a1cea914-63f4-4d89-8125-057565ee7ae2",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "m3gan",
+    "sameAs": "https://musicbrainz.org/artist/1d5597d6-b94a-4627-8675-a700f02e1fe1"
+  },
+  "recordingOf": {
+    "@type": "MusicComposition",
+    "name": "Take On Me",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Magne Furuholmen"
+      },
+      {
+        "@type": "Person",
+        "name": "Morten Harket"
+      },
+      {
+        "@type": "Person",
+        "name": "Pål Waaktaar-Savoy"
+      }
+    ],
+    "lyrics": {
+      "@type": "CreativeWork",
+      "text": "Talking away\nI don't know what I'm to say\nI'll say it anyway\nToday's another day to find you\nShyin' away\nOh, I'll be comin' for your love, okay\n\nTake on me\nTake me on\nI'll be gone\nIn a day or two\n\nNeedless to say\nI'm odds and ends\nBut I'll be stumblin' away\nSlowly learnin' that life is okay\nSay after me\nIt's no better to be safe than sorry\n\nTake on me\nTake me on\nI'll be gone\nIn a day or two\n\nThings that you say, yeah\nIs it life or just to play my worries away?\nYou're all the things I've got to remember\nYou're shyin' away\nI'll be comin' for you anyway\n\nTake on me\nTake me on\nI'll be gone\nIn a day or two"
+    }
+  }
+}
