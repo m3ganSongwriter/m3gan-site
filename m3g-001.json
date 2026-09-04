@@ -4,7 +4,10 @@
   "name": "Dreams",
   "isrcCode": "QZFZ22277474",
   "mpn": "m3g-001",
-  "genre": "Pop",
+   "genre": [
+    "Pop",
+    "Singer-Songwriter"
+  ],
   "sameAs": "https://musicbrainz.org/recording/a6b4af6c-545b-484f-be43-7f9712601089",
   "byArtist": {
     "@type": "MusicGroup",
